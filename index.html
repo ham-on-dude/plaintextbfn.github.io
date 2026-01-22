@@ -1,13 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Plaintext BFN</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    :root {
+      --bg: #fafafa;
+      --text: #111;
+      --muted: #555;
+      --accent: #2b2b2b;
+      --border: #ddd;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    header {
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin: 0;
+      letter-spacing: -0.02em;
+    }
+
+    .tagline {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+                   "Liberation Mono", "Courier New", monospace;
+      color: var(--muted);
+      margin-top: 0.5rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .example {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+                   "Courier New", monospace;
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    a {
+      color: inherit;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Plaintext BFN</h1>
-  <p>Practical computing, small builds, and honest systems.</p>
-  <p>Email: mik@plaintextbfn.ca</p>
+  <div class="container">
+
+    <header>
+      <h1>Plaintext BFN</h1>
+      <div class="tagline">
+        practical computing · small builds · honest systems
+      </div>
+    </header>
+
+    <section>
+      <h2>What I Do</h2>
+      <ul>
+        <li>Budget PC builds, refurbishment, and resale</li>
+        <li>Light diagnostics and problem-solving</li>
+        <li>Small websites and HTML projects for specific needs</li>
+        <li>Technical help for creative or niche projects</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Why Plaintext</h2>
+      <p>
+        Plaintext BFN exists to build things that work without unnecessary
+        complexity. The focus is on right-sized solutions, reuse where possible,
+        and clear thinking over hype.
+      </p>
+      <p>
+        This is not enterprise consulting. It’s careful, practical work done
+        with intent.
+      </p>
+    </section>
+
+    <section>
+      <h2>Example Work</h2>
+
+      <div class="example">
+        Budget gaming PC builds using refurbished components
+      </div>
+
+      <div class="example">
+        Static website for independent music project / merch documentation
+      </div>
+
+      <div class="example">
+        Diagnostic and repair work for older systems kept in service
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Email: <strong>info@yourdomain.com</strong>
+      </p>
+    </section>
+
+    <footer>
+      © Plaintext BFN · Sole Proprietorship · Canada
+    </footer>
+
+  </div>
 </body>
 </html>
