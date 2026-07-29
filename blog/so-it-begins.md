@@ -1,6 +1,6 @@
 ---
 layout: base.html
-title: Refurbishing an Old Office: Everything is fucking connected  
+title: "Refurbishing an Old Office: Everything is Fucking Connected"  
 date: 2026-07-28
 ---
 <header>
