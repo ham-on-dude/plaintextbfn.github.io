@@ -1,146 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>You're right, Yes, You are.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <style>
-    :root {
-      --bg: #f4f4f5;
-      --text: #18181b;
-      --muted: #71717a;
-      --accent: #27272a; 
-      --border: #e4e4e7;
-    }
-
-    body {
-      margin: 0;
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.7;
-      font-size: 1.05rem;
-    }
-
-    .container {
-      max-width: 680px;
-      margin: 0 auto;
-      padding: 4rem 1.5rem;
-    }
-
-    header {
-      margin-bottom: 3rem;
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      margin: 0;
-      letter-spacing: -0.02em;
-    }
-
-    .tagline {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-                   "Liberation Mono", "Courier New", monospace;
-      color: var(--muted);
-      margin-top: 0.5rem;
-      font-size: 0.9rem;
-    }
-
-    section {
-      margin-bottom: 2.5rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-    }
-
-    h2 {
-      font-size: 1.1rem;
-      margin-bottom: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--accent);
-    }
-
-    p {
-      margin-bottom: 1.25rem;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-    }
-
-    li {
-      margin-bottom: 0.5rem;
-    }
-
-    .example {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-                   "Courier New", monospace;
-      background: #ffffff;
-      border: 1px solid var(--border);
-      padding: 0.75rem;
-      margin-bottom: 0.75rem;
-      border-radius: 4px;
-    }
-
-    footer {
-      margin-top: 4rem;
-      font-size: 0.85rem;
-      color: var(--muted);
-      border-top: 1px solid var(--border);
-      padding-top: 1.5rem;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
-    
-    a:hover {
-      color: #000;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    
-    <!-- This renders whatever Markdown or HTML content belongs to the specific page -->
-    <header>
-  <h1>You're right, Yes, You are.</h1>
-  <div class="tagline">Published on October 1st, 2026</div>
-</header>
-<section>
-  <h2>You're right, Yes, You are.</h2>
-<p><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A Letter / Monologue</title>
-<script src="https://cdn.tailwindcss.com"></script>
+<h2>HTML</h2>
+<h2>layout: base.html
+title: &quot;You're right, Yes, You are.&quot;<br>
+date: 2026-10-01</h2>
+<!-- Optional external styles/fonts for this specific post if not in base.html -->
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
 <style>
-body {
-font-family: 'Inter', sans-serif;
-}
-.prose-text {
-font-family: 'Lora', serif;
-}
-</style></p>
-</head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col justify-between selection:bg-slate-200">
-<p><header class="w-full py-6 px-8 border-b border-slate-200 bg-white/80 backdrop-blur-md sticky top-0 z-10">
-<div class="max-w-2xl mx-auto flex items-center justify-between">
-<span class="text-xs uppercase tracking-widest text-slate-400 font-medium">Document View</span>
-<div class="flex items-center space-x-2 text-xs text-slate-500">
-<span class="w-2 h-2 rounded-full bg-emerald-500 inline-block"></span>
-<span>Formatted &amp; Responsive</span>
-</div>
-</div>
-</header></p>
-<p><main class="flex-grow flex items-center justify-center px-4 sm:px-6 py-12">
-<div class="w-full max-w-2xl bg-white shadow-sm border border-slate-200/80 rounded-2xl p-8 sm:p-12 md:p-16 transition-all duration-300 hover:shadow-md"></p>
-<p><article class="prose-text text-lg sm:text-xl leading-relaxed text-slate-700 space-y-6"></p>
+    .prose-text {
+        font-family: 'Lora', serif;
+    }
+</style>
+<div class="max-w-2xl mx-auto py-8 px-4 sm:px-6">
+    <article class="prose-text text-lg sm:text-xl leading-relaxed text-slate-700 space-y-6 bg-white shadow-sm border border-slate-200/80 rounded-2xl p-8 sm:p-12 md:p-16">
 <p><p class="whitespace-pre-line">I’m so
 happy that you wanted to reconnect and be friends.</p></p>
 <p><p class="whitespace-pre-line">It’s too
@@ -187,14 +58,4 @@ bad you won’t shut the fuck up.</p></p>
 <p><p class="whitespace-pre-line pt-4">I’m glad
 this phone call is over.</p></p>
 <p></article></p>
-<p></div>
-</main></p>
-
-
-    <footer>
-      © Plaintext BFN · Sole Proprietorship · Canada
-    </footer>
-
-  </div>
-</body>
-</html>
+</div>
